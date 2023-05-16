@@ -70,7 +70,7 @@ const App = () => {
             {tenzies && <Confetti />}
             <h1 className="title">Tenzies</h1>
             <p className="instructions">
-                Roll until all dice are the same. Click each die to freeze it at its current value between rolls.
+                Würfle bis alle Würfel gleich sind! Durch Klicken eines Würfels kannst du ihn einfrieren.
             </p>
             <div className="wrapper">
                 {
@@ -86,7 +86,7 @@ const App = () => {
                 }
             </div>
             <button onClick={!tenzies ? roll : newGame} className="roll--btn">
-                {tenzies ? "New Game" : "Roll"}
+                {tenzies ? "Neues Spiel" : "Würfeln"}
             </button>
         </main>
     )
