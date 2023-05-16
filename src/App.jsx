@@ -86,9 +86,7 @@ const App = () => {
                 }
             </div>
             <button onClick={!tenzies ? roll : newGame} className="roll--btn">
-                {
-                    tenzies ? "New Game" : "Roll"
-                }
+                {tenzies ? "New Game" : "Roll"}
             </button>
         </main>
     )
